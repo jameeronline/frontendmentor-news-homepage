@@ -2,7 +2,7 @@
   "name": "news-homepage-main",
   "version": "1.0.0",
   "description": "![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.html",
+  "main": "script.js",
   "scripts": {
       "dev": "vite",
       "build": "vite build",
