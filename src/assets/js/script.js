@@ -11,6 +11,7 @@ mobileMenuToggle.addEventListener('click', function(){
     mobileMenu.classList.remove('-right-full');
     mobileMenu.classList.add('right-0');
     body.classList.add('overflow-hidden');
+    body.classList.add('pr-4');
     mobileMenuShadow.classList.remove('hidden');
 });
 
@@ -19,5 +20,6 @@ mobileMenuClose.addEventListener('click', function(){
     mobileMenu.classList.add('-right-full');
     mobileMenu.classList.remove('right-0');
     body.classList.remove('overflow-hidden');
+    body.classList.remove('pr-4');
     mobileMenuShadow.classList.add('hidden');
 });
